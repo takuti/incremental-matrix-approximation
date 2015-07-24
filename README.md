@@ -4,6 +4,12 @@ Experimental code and results of:
 
 T. Kitazawa, T. Matsuo, **Incremental Approaches for Matrix Approximation: Performance Evaluations and Their Possible Applications**, (in Japanese), *The Japanese Society for Artificial Intelligence SIG-FPAI-B501*, Aug. 2015.
 
+### Dataset
+
+Training data of USPS normalized handwritten dataset.
+
+http://statweb.stanford.edu/~tibs/ElemStatLearn/data.html
+
 ### 1) Brute Force
 
 Running Time: around 4000 sec.
