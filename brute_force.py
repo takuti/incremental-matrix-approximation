@@ -12,12 +12,14 @@ def brute_force(A):
   m = 256
   n = 7291
 
+  n0 = 256
+
   if A.shape[0] != m or A.shape[1] != n: raise ValueError('Error: incorrect matrix size')
 
   start = time.clock()
 
   # NOTE: s is a vector; np.diag(s) will produce a diagonal matrix
-  for i in range(256, n):
+  for i in range(n0, n):
     U, s, V = ln.svd(A[:,:i+1], full_matrices=False)
 
   elapsed_time = time.clock() - start
