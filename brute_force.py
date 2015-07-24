@@ -21,6 +21,6 @@ def brute_force(A):
     U, s, V = ln.svd(A[:,:i+1], full_matrices=False)
 
   elapsed_time = time.clock() - start
-  print elapsed_time
+  print 'time:', elapsed_time
 
   return U, s, V
